@@ -109,7 +109,7 @@ If `make check` target is successful, developer is good to commit the code to pr
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.1.4 |
-| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | 3.32.0 |
+| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | =3.0.0 |
 
 ## Providers
 
@@ -117,9 +117,7 @@ No providers.
 
 ## Modules
 
-| Name | Source | Version |
-|------|--------|---------|
-| <a name="module_resource_group"></a> [resource\_group](#module\_resource\_group) | ./modules/resource_group | n/a |
+No modules.
 
 ## Resources
 
@@ -127,10 +125,7 @@ No resources.
 
 ## Inputs
 
-| Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
-| <a name="input_location"></a> [location](#input\_location) | n/a | `string` | `"eastus"` | no |
-| <a name="input_resource_group-name"></a> [resource\_group-name](#input\_resource\_group-name) | n/a | `string` | `"appservice-sb-000-rg-000"` | no |
+No inputs.
 
 ## Outputs
 

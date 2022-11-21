@@ -13,11 +13,11 @@
 // limitations under the License.
 
 variable "location" {
-  type    = string
+  type = string
   default = "eastus"
 }
 
 variable "resource_group-name" {
-  type    = string
+  type = string
   default = "appservice-sb-000-rg-000"
 }

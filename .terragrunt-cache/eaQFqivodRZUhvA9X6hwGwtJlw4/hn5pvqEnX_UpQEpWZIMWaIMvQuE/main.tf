@@ -12,12 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-variable "location" {
-  type    = string
-  default = "eastus"
-}
-
-variable "resource_group-name" {
-  type    = string
-  default = "appservice-sb-000-rg-000"
+module "resource_group" {
+  source = "./modules/resource_group"
+  resource_group-name = var.resource_group-name
+  location = var.location
 }

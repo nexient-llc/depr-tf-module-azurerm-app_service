@@ -12,12 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-variable "location" {
-  type    = string
-  default = "eastus"
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "3.32.0"
+    }
+  }
 }
 
-variable "resource_group-name" {
-  type    = string
-  default = "appservice-sb-000-rg-000"
+provider "azurerm" {
+  features {}
 }

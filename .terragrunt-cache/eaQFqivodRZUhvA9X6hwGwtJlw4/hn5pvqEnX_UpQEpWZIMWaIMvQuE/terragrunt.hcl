@@ -12,12 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-variable "location" {
-  type    = string
-  default = "eastus"
+terraform {
+  source = "./"
 }
 
-variable "resource_group-name" {
-  type    = string
-  default = "appservice-sb-000-rg-000"
+inputs = {
+  resource_group-nam = "bizops-sb-001-rg-000"
+  location = "eastus"
 }

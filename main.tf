@@ -11,3 +11,9 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
+
+module "resource_group" {
+  source              = "./modules/resource_group"
+  resource_group-name = var.resource_group-name
+  location            = var.location
+}
